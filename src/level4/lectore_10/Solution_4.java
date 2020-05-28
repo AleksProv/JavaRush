@@ -1,6 +1,6 @@
 package level4.lectore_10;
 
-//вывести на экран квадрат из 10*10 букв S используя while
+//вывести на экран квадрат из 10*10 букв S используя while.
 
 public class Solution_4 {
     public static void main (String[] args) {

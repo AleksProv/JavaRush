@@ -1,6 +1,6 @@
 package level4.lectore7;
 
-//вывести количество положительных и отрицательных чисел
+//вывести количество положительных и отрицательных чисел.
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

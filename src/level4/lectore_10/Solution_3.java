@@ -1,6 +1,6 @@
 package level4.lectore_10;
 
-//Вывести строку N раз
+//Вывести строку N раз.
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

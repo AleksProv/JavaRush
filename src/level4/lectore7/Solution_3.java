@@ -24,6 +24,5 @@ public class Solution_3 {
             count++;
 
         System.out.println (count);
-
     }
 }

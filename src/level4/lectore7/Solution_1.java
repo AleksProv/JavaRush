@@ -12,7 +12,6 @@ public class Solution_1 {
         int t1 = Integer.parseInt (reader.readLine ());
 
         if (t1 != 0) {
-
             if (t1 % 2 == 0)
                 System.out.print ("четное");
             else

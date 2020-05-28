@@ -1,6 +1,6 @@
 package level4.lectore_10;
 
-//вывести на экран таблицу умножения 10*10 используя while
+//вывести на экран таблицу умножения 10*10 используя while.
 
 public class Solution_5 {
     public static void main (String[] args) {
