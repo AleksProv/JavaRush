@@ -1,4 +1,4 @@
-package level4.lectore7;
+package level4.lectore_7;
 /*
   Вывести описание числа от 1 до 999
  */

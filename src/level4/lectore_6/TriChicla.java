@@ -1,4 +1,4 @@
-package level4.lectore6;
+package level4.lectore_6;
 
 /*
  Вывести порядклвый номер числа, отличного от равных других.

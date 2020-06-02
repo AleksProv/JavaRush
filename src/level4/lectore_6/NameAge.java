@@ -1,4 +1,4 @@
-package level4.lectore6;
+package level4.lectore_6;
 
 /*
  Ввести имя и возраст. Если возраст меньше 18 вывести "Подрасти еще"

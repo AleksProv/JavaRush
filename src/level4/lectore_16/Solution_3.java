@@ -9,7 +9,6 @@ public class Solution_3 {
     public static void main (String[] args) throws Exception {
         BufferedReader reader = new BufferedReader (new InputStreamReader (System.in));
         int summ = 0;
-
         while (true) {
             System.out.println ("Введите число");
             int n = Integer.parseInt (reader.readLine ());

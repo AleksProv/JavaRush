@@ -10,7 +10,6 @@ public class Solution_5 {
         BufferedReader reader = new BufferedReader (new InputStreamReader (System.in));
         System.out.println ("Введите имя");
         String name = reader.readLine ();
-
         for (int i = 0; i < 10; i++)
             System.out.println (name + " любит меня.");
     }
