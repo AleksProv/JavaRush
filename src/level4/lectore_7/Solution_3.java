@@ -1,11 +1,11 @@
-package level4.lectore7;
+package level4.lectore_7;
 
-//вывести количество положительных и отрицательных чисел.
+// вывести количество положительных чисел
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Solution_4 {
+public class Solution_3 {
     public static void main (String[] args) throws Exception {
         BufferedReader reader = new BufferedReader (new InputStreamReader (System.in));
         System.out.println ("Введите число 1");
@@ -14,23 +14,15 @@ public class Solution_4 {
         int t2 = Integer.parseInt (reader.readLine ());
         System.out.println ("Введите число 3");
         int t3 = Integer.parseInt (reader.readLine ());
-        int countPol = 0;
-        int countOtr = 0;
+        int count = 0;
 
         if (t1 > 0)
-            countPol++;
-        else
-            countOtr++;
+            count++;
         if (t2 > 0)
-            countPol++;
-        else
-            countOtr++;
+            count++;
         if (t3 > 0)
-            countPol++;
-        else
-            countOtr++;
+            count++;
 
-        System.out.println ("количество положительных чисел: " + countPol);
-        System.out.println ("количество отрицательных чисел: " + countOtr);
+        System.out.println (count);
     }
 }

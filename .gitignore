@@ -1,8 +1,9 @@
-.idea/
+## Intellij IDEA template
+.idea
 *.iml
 *.iws
 
-
+## Java template
 # Compiled class file
 *.class
 

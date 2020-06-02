@@ -1,4 +1,4 @@
-package level4.lectore6;
+package level4.lectore_6;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

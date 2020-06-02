@@ -1,4 +1,4 @@
-package level4.lectore6;
+package level4.lectore_6;
 
 /*
 Ввести с клавиатуры три чилса и вывести их в порядке убывания.
@@ -27,8 +27,7 @@ public class CortirovkaTrex {
                 System.out.print(t2+" "+t1+" "+t3);
             else
                 System.out.print(t2+" "+t3+" "+t1);
-        //else if (t3 >= t1 &&  t3 >= t2 )
-
+        else
             if (t1 >= t2)
                 System.out.print(t3+" "+t1+" "+t2);
             else

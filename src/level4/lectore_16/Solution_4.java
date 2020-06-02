@@ -1,6 +1,6 @@
 package level4.lectore_16;
 
-//Ввести с клавиатуры Имя, дату рождения из трех чисели и вывести.
+//Ввести с клавиатуры Имя, дату рождения из трех чисел и вывести.
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -16,8 +16,7 @@ public class Solution_4 {
         int n2 = Integer.parseInt (reader.readLine ());
         System.out.println ("Введите год рождения");
         int n3 = Integer.parseInt (reader.readLine ());
-
         System.out.println ("Меня зовут " + name);
-        System.out.println ("Я родился " + n1 + "." + n2 + "." + n3);
+        System.out.println ("Я родился " + n3 + "." + n2 + "." + n1);
     }
 }

@@ -15,7 +15,6 @@ public class Solution_2 {
         System.out.println ("Введите третье число");
         int n3 = Integer.parseInt (reader.readLine ());
         int sred=0;
-
         if ((n1 > n2 && n1 < n3) || (n1 < n2 && n1 > n3))
             sred = n1;
         if ((n2 > n3 && n2 < n1)|| (n2 < n3 && n2 > n1))
