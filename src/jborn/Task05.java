@@ -7,18 +7,14 @@ package jborn;
 import java.util.Scanner;
 
 public class Task05 {
-    public static void main(String[] args) {
-        int a = requestNumber();
-        int b = requestNumber();
-        int c = requestNumber();
-        if (a * a + b * b == c * c)
-            System.out.println("тройка Пифагора");
-        else if (a * a + c * c == b * b)
-            System.out.println("тройка Пифагора");
-        else if (b * b + c * c == a * a)
-            System.out.println("тройка Пифагора");
+    public static void main (String[] args) {
+        int a = requestNumber ();
+        int b = requestNumber ();
+        int c = requestNumber ();
+        if (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a)
+            System.out.println ("тройка Пифагора");
         else
-            System.out.println("Нет");
+            System.out.println ("Нет");
     }
 
     static int requestNumber() {

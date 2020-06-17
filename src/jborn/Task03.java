@@ -7,7 +7,7 @@ public class Task03 {
         int n = requestNumber();
         if (n > 9 && n < 100) {
             int des = n / 10;
-            int edin = n - des * 10;
+            int edin = n % 10;
             System.out.println("Колличество десятков " + des);
             System.out.println("Колличество единиц " + edin);
             System.out.println("Сумма цифр " + (des + edin));
