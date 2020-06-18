@@ -1,21 +1,15 @@
-package jborn;
+package jborn.s02;
 
 /*
-Найти сумму цифр числа N.
+Перевод см в полные метры.
  */
 
 import java.util.Scanner;
 
-public class Task09 {
+public class Task01 {
     public static void main(String[] args) {
         int n = requestNumber();
-        int sum = 0;
-        while (n != 0) {
-            sum += (n % 10);
-            n /= 10;
-        }
-        System.out.println("Сумма цифр равна " + sum);
-
+        System.out.println(n + " сантиметров - это " + n / 100 + " полных метра.");
     }
 
     static int requestNumber() {
@@ -25,5 +19,4 @@ public class Task09 {
     }
 
 }
-
 

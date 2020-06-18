@@ -1,18 +1,17 @@
-package jborn;
-
+package jborn.s03;
 /*
-Таблица умножения на число N.
+Вывести последовательность рандомных чисел из N количества.
  */
-
+import java.util.Random;
 import java.util.Scanner;
 
-public class Task08 {
+public class Task02 {
     public static void main(String[] args) {
         int n = requestNumber();
-        for (int i = 1; i <= 10; i++) {
-            System.out.print(i * n + " ");
+        Random random = new Random ();
+        for (int i = 0; i < n; i++) {
+            System.out.print(random.nextInt(10));
         }
-
     }
 
     static int requestNumber() {
@@ -20,7 +19,4 @@ public class Task08 {
         System.out.println("Введите число");
         return scanner.nextInt();
     }
-
 }
-
-

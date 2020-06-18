@@ -1,4 +1,4 @@
-package jborn;
+package jborn.s02;
 /*
 Расход денег на топливо для автомобиля/
  */

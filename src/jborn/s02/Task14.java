@@ -1,4 +1,4 @@
-package jborn;
+package jborn.s02;
 /*
 Найти сумму 2^0 + 2^1 + 2^2 + ... + 2^N
  */

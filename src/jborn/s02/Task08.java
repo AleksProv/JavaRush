@@ -1,15 +1,18 @@
-package jborn;
+package jborn.s02;
 
 /*
-Перевод см в полные метры.
+Таблица умножения на число N.
  */
 
 import java.util.Scanner;
 
-public class Task01 {
+public class Task08 {
     public static void main(String[] args) {
         int n = requestNumber();
-        System.out.println(n + " сантиметров - это " + n / 100 + " полных метра.");
+        for (int i = 1; i <= 10; i++) {
+            System.out.print(i * n + " ");
+        }
+
     }
 
     static int requestNumber() {
@@ -19,4 +22,5 @@ public class Task01 {
     }
 
 }
+
 
