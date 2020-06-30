@@ -10,13 +10,7 @@ import java.io.InputStreamReader;
 public class Task13 {
     public static void main (String[] args) throws Exception {
         String str = readString ();
-        str = str.replaceAll ("\\s+", " ");
-        if (str.startsWith (" ")) {
-            str = str.substring (1);
-        }
-        if (str.endsWith (" ")) {
-            str = str.substring (0, str.length () - 1);
-        }
+        str = str.replaceAll ("\\s+", " ").trim ();
 
         // Удаляет пробел между концом предложения и точкой. Не факт, что нужно было по заданию.
         if (!Character.isLetter (str.charAt (str.length () - 1))) {
