@@ -1,7 +1,7 @@
 package level10.lectore_11;
 
 /*
-РљРѕР»РёС‡РµСЃС‚РІРѕ Р±СѓРєРІ
+Количество букв
  */
 
 import java.io.BufferedReader;
@@ -15,14 +15,14 @@ public class Solution_2 {
         BufferedReader reader = new BufferedReader (new InputStreamReader (System.in));
 
 
-        // РђР»С„Р°РІРёС‚
+        // Алфавит
         List<Character> alphabet = Arrays.asList (
-                'Р°', 'Р±', 'РІ', 'Рі', 'Рґ', 'Рµ', 'С‘', 'Р¶',
-                'Р·', 'Рё', 'Р№', 'Рє', 'Р»', 'Рј', 'РЅ', 'Рѕ',
-                'Рї', 'СЂ', 'СЃ', 'С‚', 'Сѓ', 'С„', 'С…', 'С†',
-                'С‡', 'С€', 'С‰', 'СЉ', 'С‹', 'СЊ', 'СЌ', 'СЋ', 'СЏ');
+                'а', 'б', 'в', 'г', 'д', 'е', 'ё', 'ж',
+                'з', 'и', 'й', 'к', 'л', 'м', 'н', 'о',
+                'п', 'р', 'с', 'т', 'у', 'ф', 'х', 'ц',
+                'ч', 'ш', 'щ', 'ъ', 'ы', 'ь', 'э', 'ю', 'я');
 
-        //Р’РІРѕРґ СЃС‚СЂРѕРє
+        //Ввод строк
         ArrayList<String> list = new ArrayList<> ();
         for (int i = 0; i < 10; i++) {
             String s = reader.readLine ();
