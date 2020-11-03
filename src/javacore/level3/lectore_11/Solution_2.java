@@ -9,14 +9,14 @@ import java.nio.charset.Charset;
 import java.util.Scanner;
 
 
-public class Solution_2 {
+public class Solution_2 { // путь d:/file2.txt
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String sourceFileMame = reader.readLine();
-        FileInputStream fileInputStream = new FileInputStream(sourceFileMame);
-        InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream,Charset.forName("windows-1251"));
+        String sourceFileName = reader.readLine();
+        FileInputStream fileInputStream = new FileInputStream(sourceFileName);
+  //      InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream,Charset.forName("windows-1251"));
 
-        Scanner scanner = new Scanner(inputStreamReader);
+        Scanner scanner = new Scanner(fileInputStream);
         StringBuilder builder = new StringBuilder();
 
         while (scanner.hasNext()) {
@@ -26,7 +26,7 @@ public class Solution_2 {
 
         scanner.close();
         reader.close();
-
+        fileInputStream.close();
     }
 }
 
