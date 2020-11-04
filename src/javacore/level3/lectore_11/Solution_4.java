@@ -14,8 +14,7 @@ import java.util.*;
 public class Solution_4 { // путь d:/file2.txt
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String sourceFileName = reader.readLine();
-        FileInputStream fileInputStream = new FileInputStream(sourceFileName);
+        FileInputStream fileInputStream = new FileInputStream(reader.readLine());
 
         Scanner scanner = new Scanner(fileInputStream);
 

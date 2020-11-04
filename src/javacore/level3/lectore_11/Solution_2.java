@@ -12,8 +12,7 @@ import java.util.Scanner;
 public class Solution_2 { // путь d:/file2.txt
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String sourceFileName = reader.readLine();
-        FileInputStream fileInputStream = new FileInputStream(sourceFileName);
+        FileInputStream fileInputStream = new FileInputStream(reader.readLine());
   //      InputStreamReader inputStreamReader = new InputStreamReader(fileInputStream,Charset.forName("windows-1251"));
 
         Scanner scanner = new Scanner(fileInputStream);
