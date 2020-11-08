@@ -1,4 +1,4 @@
-package javacore.level3.lectore_11;
+package javacore.level3.lectore_11.weather;
 
 /*
 The weather is faine
@@ -11,7 +11,7 @@ public class Solution {
         System.out.println(new Today(WeatherType.FREEZING));
     }
 
-    static class Today implements Weather{
+    static class Today implements Weather {
         private String type;
         public String getWeatherType(){
             return type;

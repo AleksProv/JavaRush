@@ -20,6 +20,4 @@ public class Solution_6 {
         }
     }
 
-
 }
-
