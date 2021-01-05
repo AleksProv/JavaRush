@@ -18,13 +18,12 @@ public class Solution_3 {
         }
 
         public static IMF getFund() {
-            if (imf == null)
-                synchronized (IMF.class) {
+            synchronized (IMF.class) {
                     if (imf == null) {
                         imf = new IMF();
                     }
-                }
-            return imf;
+                return imf;
+            }
         }
     }
 }
