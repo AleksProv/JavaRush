@@ -20,7 +20,7 @@ import java.util.Scanner;
  */
 
 public class Solution_3 {  // d:/data2.txt
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         String idMax;
         args = new String[]{"-c", "Слива краснодарская", "13", "17"};
 
@@ -31,16 +31,19 @@ public class Solution_3 {  // d:/data2.txt
         List<String> listProdukt = new ArrayList<>();
         List<Integer> idProdukt = new ArrayList<>();
 
-//        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-//        String inputFile = reader.readLine();
-        String inputFile = "d:/data2.txt";
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String inputFile = reader.readLine();
         try (BufferedReader fileReader = new BufferedReader(new FileReader(inputFile))) {
-            while (fileReader.ready()) {
-                    listProdukt.add(fileReader.readLine());
+            String c;
+            while ((c = fileReader.readLine()) != null) {
+                listProdukt.add(c);
             }
-        } catch (FileNotFoundException e) {
+        } catch (IOException e) {
         }
 
+        if (listProdukt.get(0).length() == 1 && listProdukt.size() == 1) {
+            listProdukt.clear();
+        }
 
         if (!listProdukt.isEmpty()) {
             for (String pear : listProdukt) {
