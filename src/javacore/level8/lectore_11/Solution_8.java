@@ -1,8 +1,6 @@
 package javacore.level8.lectore_11;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Объединение файлов
