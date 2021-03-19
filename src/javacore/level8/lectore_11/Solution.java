@@ -19,8 +19,8 @@ import java.util.Date;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
-         args = new String[]{"-e", "d:/data.txt", "d:/data1.txt"};
-//       args = new String[]{"-d", "d:/data1.txt", "d:/data2.txt"};
+//        args = new String[]{"-e", "d:/data.txt", "d:/data1.txt"};
+//        args = new String[]{"-d", "d:/data1.txt", "d:/data2.txt"};
 
         String metka = args[0];
 
