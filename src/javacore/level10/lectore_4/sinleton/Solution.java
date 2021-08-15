@@ -56,7 +56,7 @@ public class Solution {
         }
 
         // добавляем этот метод
-        
+
         private Object readResolve() throws ObjectStreamException {
             return ourInstance;
         }
